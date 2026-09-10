@@ -1,0 +1,9 @@
+{
+  "NGS_001_library_prep_input": {
+    "description": "dsDNA input concentration for NGS library prep (Qubit HS)",
+    "param_path": ["measurements", "concentration_ng_per_uL"],
+    "min": 10.0,
+    "max": 100.0,
+    "unit": "ng/uL"
+  }
+}

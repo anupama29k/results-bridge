@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+audit.db
+tests/test_audit.db
+.DS_Store
+robotic-assays-lib/

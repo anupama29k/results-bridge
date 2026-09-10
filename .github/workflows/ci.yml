@@ -1,0 +1,19 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out the robotic-assays library (ecosystem hub)
+        uses: actions/checkout@v4
+        with:
+          repository: anupama29k/robotic-assays
+          path: robotic-assays-lib
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Tests
+        env:
+          ROBOTIC_ASSAYS_PATH: ${{ github.workspace }}/robotic-assays-lib
+        run: python -m pytest tests/ -q
