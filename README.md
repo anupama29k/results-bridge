@@ -1,4 +1,5 @@
-# Results Bridge
+# Results Bridge  
+![CI](https://github.com/anupama29k/results-bridge/actions/workflows/ci.yml/badge.svg)
 
 **Instrument output in → validated against assay acceptance criteria → structured result in Benchling. Built, deployed, and operated as a small production service.**
 
