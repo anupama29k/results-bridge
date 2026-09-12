@@ -17,6 +17,10 @@ spins up a fake /api/v2 via httpx.MockTransport and asserts the full contract
 BenchlingClient accepts an optional `transport`: tests inject the fake,
 production passes nothing and gets the real network.
 """
+import time
+import httpx
+
+
 from .config import BENCHLING_API_URL, BENCHLING_API_KEY, DRY_RUN
 
 RESULT_SCHEMA_ID = "assaysch_resultsbridge"  # created once in the sandbox tenant
@@ -92,8 +96,36 @@ class BenchlingClient:
         return 0.5 * (2 ** (attempt - 1))
 
     def post_results(self, payload: dict) -> dict:
-        raise NotImplementedError("M3: Anu implements the live Benchling write-back — see class docstring")
+        if self.transport:
+            client = httpx.Client(transport=self.transport)
+        else:
+            client = httpx.Client()
 
+        with client:
+            # 1. idempotency: has this file already been delivered?
+            sha = payload["results"][0]["fields"]["source_file"]["value"]
+            r = client.get(f"{self.url}/results",
+                           params={"source_file": sha},
+                           auth=(self.key, ""))
+            if r.json().get("results"):
+                return {"delivered": True, "duplicate": True, "mode": self.mode}
 
+            # 2. deliver — retry on rate-limit/server errors, up to 3 attempts
+            for attempt in range(1, 4):
+                resp = client.post(f"{self.url}/results", json=payload, auth=(self.key, ""))
+                if resp.status_code == 429 or resp.status_code >= 500:
+                    if attempt == 3:
+                        raise RuntimeError(f"Benchling still failing after 3 attempts (last status {resp.status_code})")
+                    time.sleep(self.backoff(attempt))
+                    continue
+                break
+
+            # 3. a 4xx (other than 429) is our fault — raise, don't retry
+            if 400 <= resp.status_code < 500:
+                raise BenchlingApiError(resp.status_code, resp.text)
+
+            # 4. success
+            return {"delivered": True, "duplicate": False,
+                    "mode": self.mode, "response": resp.json()}
 def get_client():
     return DryRunClient() if DRY_RUN else BenchlingClient()
