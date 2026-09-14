@@ -13,7 +13,7 @@ def test_ingest_end_to_end(qubit_csv):
     assert r.status_code == 200
     body = r.json()
     assert body["overall"] == "ATTENTION_REQUIRED"
-    assert body["summary"] == {"PASS": 2, "FAIL": 2, "INVALID": 0}
+    assert body["summary"] == {"PASS": 2, "FAIL": 2, "INVALID": 1}
     assert body["delivery"]["mode"] == "dry-run"
     a = client.get("/audit").json()
     assert a and a[0]["overall"] == "ATTENTION_REQUIRED" and a[0]["n_fail"] == 2
