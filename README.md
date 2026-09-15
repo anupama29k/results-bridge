@@ -1,5 +1,6 @@
 # Results Bridge  
 ![CI](https://github.com/anupama29k/results-bridge/actions/workflows/ci.yml/badge.svg)
+**Live service:** [results-bridge.onrender.com/docs](https://results-bridge.onrender.com/docs) — interactive API docs; try `/ingest` with a Qubit CSV. Runs in dry-run mode (no credentials): full parse → validate → audit pipeline, with the Benchling payload rendered instead of sent. Free-tier host, so the first request after idle takes ~30s to wake.
 
 **Instrument output in → validated against assay acceptance criteria → structured result in Benchling. Built, deployed, and operated as a small production service.**
 
