@@ -22,3 +22,15 @@ def test_unknown_assay_rejected(qubit_csv):
     r = client.post("/ingest", data={"assay_id": "nope"},
                     files={"file": ("test_qubit.csv", qubit_csv, "text/csv")})
     assert r.status_code == 422
+    
+def test_ingest_spark_elisa():
+    with open("tests/fixtures/test_tecan_spark.xlsx", "rb") as f:
+        data = f.read()
+    r = client.post("/ingest", data={"assay_id": "ELISA_001_tmb_endpoint"},
+                    files={"file": ("test_tecan_spark.xlsx", data,
+                                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")})
+    assert r.status_code == 200
+    body = r.json()
+    counts = body["summary"]
+    assert counts["PASS"] + counts["FAIL"] + counts["INVALID"] == 96  # every well accounted for
+    assert counts["PASS"] > 0
