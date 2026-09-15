@@ -1,0 +1,16 @@
+[
+  {
+    "name": "qubit_mixed_verdicts_incl_invalid",
+    "why": "Core case: in-range, out-of-range and non-numeric rows in one file; INVALID row proves nothing is silently dropped.",
+    "file": "tests/fixtures/test_qubit.csv",
+    "assay_id": "NGS_001_library_prep_input",
+    "expect": { "summary": { "PASS": 2, "FAIL": 2, "INVALID": 1 }, "overall": "ATTENTION_REQUIRED" }
+  },
+  {
+    "name": "spark_elisa_blanks_fail_floor",
+    "why": "Full 96-well Excel plate; the 5 FAILs are blank wells below the 0.1 AU floor — the acceptance range doing its job.",
+    "file": "tests/fixtures/test_tecan_spark.xlsx",
+    "assay_id": "ELISA_001_tmb_endpoint",
+    "expect": { "summary": { "PASS": 91, "FAIL": 5, "INVALID": 0 }, "overall": "ATTENTION_REQUIRED" }
+  }
+]
