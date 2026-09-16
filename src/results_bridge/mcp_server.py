@@ -62,5 +62,26 @@ def recent_audit(limit: int = 20) -> list:
     return tools.recent_audit(limit)
 
 
+
+
+@mcp.tool()
+def search_protocols(query: str) -> list:
+    """Search the 76-entry robotic-assays protocol library by assay name
+    (case-insensitive substring). Returns compact hits with source module,
+    automation difficulty, and regulatory references. Use get_protocol for
+    the full entry."""
+    return tools.search_protocols(query)
+
+
+@mcp.tool()
+def get_protocol(name: str) -> dict:
+    """Full protocol entry for one assay from the robotic-assays library:
+    all acceptance criteria (including curve- and ratio-based ones the
+    validator cannot score numerically), troubleshooting guidance,
+    regulatory references, and automation notes. Exact name match — use
+    search_protocols to discover names."""
+    return tools.get_protocol(name)
+
+
 if __name__ == "__main__":
     mcp.run()

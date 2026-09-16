@@ -48,3 +48,37 @@ def check_file(file_path: str, assay_id: str) -> dict:
 def recent_audit(limit: int = 20) -> list:
     """Return the most recent audit rows, newest first."""
     return audit.recent(limit)
+
+def search_protocols(query: str) -> list:
+    """Search the robotic-assays protocol library by name.
+
+    *** M6 (Anu): implement. ***
+    Contract:
+      * from .library import load_all_assays, display_name
+      * case-insensitive substring match of `query` against each entry's
+        display_name(entry)
+      * return compact hits (full protocols come from get_protocol):
+          {"name": display_name(e), "source": e["source"],
+           "automation_difficulty": e.get("automation_difficulty"),
+           "regulatory": e.get("regulatory", [])}
+      * empty list when nothing matches — an empty search is an answer,
+        not an error
+    """
+    raise NotImplementedError("M6: Anu implements search_protocols — see docstring")
+
+
+def get_protocol(name: str) -> dict:
+    """Return the full library entry for one assay: every acceptance
+    criterion (including the curve/ratio ones the validator can't score),
+    troubleshooting, regulatory references, automation notes.
+
+    *** M6 (Anu): implement. ***
+    Contract:
+      * case-insensitive EXACT match on display_name(entry)
+      * if several modules define the same name, return the LAST match
+        (module order puts v2 schemas after v1 — newest schema wins)
+      * no match: raise ValueError(f"no protocol named '{name}'; try
+        search_protocols first") — steer the caller to discovery
+      * return the entry dict as-is (it already carries `source`)
+    """
+    raise NotImplementedError("M6: Anu implements get_protocol — see docstring")
