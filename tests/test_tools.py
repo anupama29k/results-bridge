@@ -38,7 +38,7 @@ def test_list_assays_shape():
     assert ids == sorted(ids)  # contract says sorted
     ngs = next(a for a in assays if a["assay_id"] == "NGS_001_library_prep_input")
     assert ngs["min"] == 10.0 and ngs["max"] == 100.0 and ngs["unit"] == "ng/uL"
-    assert set(ngs) == {"assay_id", "description", "min", "max", "unit"}
+    assert set(ngs) == {"assay_id", "description", "regulatory", "min", "max", "unit"}
 
 
 def test_check_file_qubit_end_to_end():

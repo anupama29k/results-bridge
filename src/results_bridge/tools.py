@@ -21,6 +21,7 @@ def list_assays() -> list:
     crit = load_criteria()
     return [
         {"assay_id": k, "description": v["description"],
+         "regulatory": v.get("regulatory", []),
          "min": v["min"], "max": v["max"], "unit": v["unit"]}
         for k, v in sorted(crit.items())
     ]
