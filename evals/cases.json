@@ -12,5 +12,26 @@
     "file": "tests/fixtures/test_tecan_spark.xlsx",
     "assay_id": "ELISA_001_tmb_endpoint",
     "expect": { "summary": { "PASS": 91, "FAIL": 5, "INVALID": 0 }, "overall": "ATTENTION_REQUIRED" }
+  },
+  {
+    "name": "wrong_assay_for_file_is_loud_not_silent",
+    "why": "A file/assay mismatch must scream INVALID, never quietly pass or vanish.",
+    "file": "tests/fixtures/test_tecan_spark.xlsx",
+    "assay_id": "NGS_001_library_prep_input",
+    "expect": { "summary": { "PASS": 0, "FAIL": 0, "INVALID": 96 }, "overall": "ATTENTION_REQUIRED" }
+  },
+  {
+    "name": "all_pass_reports_all_pass",
+    "why": "The happy path must report ALL_PASS — every other case ends ATTENTION_REQUIRED, so this guards the green path.",
+    "file": "evals/fixtures/all_pass_qubit.csv",
+    "assay_id": "NGS_001_library_prep_input",
+    "expect": { "summary": { "PASS": 3, "FAIL": 0, "INVALID": 0 }, "overall": "ALL_PASS" }
+  },
+  {
+    "name": "qubit_v2_title_preamble_same_verdicts",
+    "why": "Same samples as case 1 but with a report-title line above the header — tests header detection on the real export shape, not the verdicts.",
+    "file": "tests/fixtures/test_qubit_v2.csv",
+    "assay_id": "NGS_001_library_prep_input",
+    "expect": { "summary": { "PASS": 2, "FAIL": 2, "INVALID": 1 }, "overall": "ATTENTION_REQUIRED" }
   }
 ]
