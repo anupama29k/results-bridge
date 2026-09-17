@@ -1,50 +1,92 @@
 {
   "NGS_001_library_prep_input": {
     "description": "dsDNA input concentration for NGS library prep (Qubit HS)",
-    "param_path": ["measurements", "concentration_ng_per_uL"],
+    "param_path": [
+      "measurements",
+      "concentration_ng_per_uL"
+    ],
     "min": 10.0,
     "max": 100.0,
     "unit": "ng/uL",
-    "regulatory": ["Internal QC SOP (project-defined range)"]
+    "regulatory": [
+      "Internal QC SOP (project-defined range)"
+    ]
   },
   "ELISA_001_tmb_endpoint": {
     "description": "ELISA endpoint absorbance at 450 nm (Tecan Spark). Floor from library criterion 'negative control OD < 0.1 above blank'; ceiling = reader linear range. Curve-level acceptance (R2, CV) lives in the assay definition.",
-    "param_path": ["measurements", "absorbance"],
+    "param_path": [
+      "measurements",
+      "absorbance"
+    ],
     "min": 0.1,
     "max": 3.5,
     "unit": "AU",
-    "regulatory": ["ICH Q6B", "robotic-assays field_01 sandwich ELISA criteria"]
+    "regulatory": [
+      "ICH Q6B",
+      "robotic-assays field_01 sandwich ELISA criteria"
+    ],
+    "roles": {
+      "blank": {
+        "max": 0.1
+      },
+      "sample": {
+        "min": 0.1,
+        "max": 3.5
+      }
+    }
   },
   "NGS_002_library_fragment_size": {
     "description": "Library average fragment size (TapeStation). Range verbatim from robotic-assays field_03 AMPure post-PCR criteria.",
-    "param_path": ["measurements", "average_size_bp"],
+    "param_path": [
+      "measurements",
+      "average_size_bp"
+    ],
     "min": 250,
     "max": 500,
     "unit": "bp",
-    "regulatory": ["ENCODE NGS library prep standards"]
+    "regulatory": [
+      "ENCODE NGS library prep standards"
+    ]
   },
   "NGS_003_pooling_input": {
     "description": "dsDNA concentration acceptable for downstream pooling (Qubit HS). Range verbatim from robotic-assays field_03 Qubit quantification criteria.",
-    "param_path": ["measurements", "concentration_ng_per_uL"],
+    "param_path": [
+      "measurements",
+      "concentration_ng_per_uL"
+    ],
     "min": 0.5,
     "max": 50.0,
     "unit": "ng/uL",
-    "regulatory": ["Illumina library QC requirements", "Internal QC SOP"]
+    "regulatory": [
+      "Illumina library QC requirements",
+      "Internal QC SOP"
+    ]
   },
   "PROT_001_expression_fluorescence": {
-    "description": "Reporter fluorescence endpoint (BMG CLARIOstar). Plausibility gate only — the assay-level criterion is relative (signal/background >= 5x per library HTS criteria).",
-    "param_path": ["measurements", "fluorescence"],
+    "description": "Reporter fluorescence endpoint (BMG CLARIOstar). Plausibility gate only \u2014 the assay-level criterion is relative (signal/background >= 5x per library HTS criteria).",
+    "param_path": [
+      "measurements",
+      "fluorescence"
+    ],
     "min": 500,
     "max": 250000,
     "unit": "RFU",
-    "regulatory": ["Internal QC SOP (instrument plausibility window)"]
+    "regulatory": [
+      "Internal QC SOP (instrument plausibility window)"
+    ]
   },
   "PROT_002_bca_od562": {
     "description": "BCA protein assay absorbance at 562 nm. Floor from library criterion 'blank OD562 < 0.10'; ceiling = reader linear range. Curve-level acceptance (R2 >= 0.995, CV) lives in the assay definition.",
-    "param_path": ["measurements", "absorbance"],
+    "param_path": [
+      "measurements",
+      "absorbance"
+    ],
     "min": 0.1,
     "max": 3.5,
     "unit": "AU",
-    "regulatory": ["ICH Q6B", "USP <1057>"]
+    "regulatory": [
+      "ICH Q6B",
+      "USP <1057>"
+    ]
   }
 }
