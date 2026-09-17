@@ -45,13 +45,15 @@ def list_assays() -> list:
 
 
 @mcp.tool()
-def check_file(file_path: str, assay_id: str) -> dict:
+def check_file(file_path: str, assay_id: str, plate_map_path: str = None) -> dict:
     """Parse an instrument export file (Qubit CSV, Tecan Spark / BMG
     CLARIOstar Excel, TapeStation export) at the given absolute path and
     validate every sample against the named assay's acceptance criteria.
     Returns per-sample PASS/FAIL/INVALID verdicts with reasons and a
-    summary. Records an audit row; never writes to Benchling."""
-    return tools.check_file(file_path, assay_id)
+    summary. Records an audit row; never writes to Benchling. Optionally
+    pass plate_map_path (a JSON file of {well: role}) for role-aware
+    validation: blanks judged as blanks, samples as samples."""
+    return tools.check_file(file_path, assay_id, plate_map_path)
 
 
 @mcp.tool()

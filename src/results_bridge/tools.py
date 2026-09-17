@@ -27,17 +27,25 @@ def list_assays() -> list:
     ]
 
 
-def check_file(file_path: str, assay_id: str) -> dict:
+def check_file(file_path: str, assay_id: str, plate_map_path: str = None) -> dict:
     """Parse an instrument file from disk, validate it against one assay,
-    and record the check in the audit log. Never writes to Benchling."""
+    and record the check in the audit log. Never writes to Benchling.
+
+    M7: an optional plate map (JSON file of {well: role}) makes validation
+    role-aware — blanks judged as blanks, samples as samples — using the
+    per-role rules in the assay's criteria entry."""
     criteria = load_criteria()
     if assay_id not in criteria:
         raise ValueError(f"unknown assay_id '{assay_id}'; known: {sorted(criteria)}")
+    plate_map = None
+    if plate_map_path:
+        import json
+        plate_map = json.load(open(plate_map_path))
     name = os.path.basename(file_path)
     raw = open(file_path, "rb").read()
     content = raw.decode("utf-8") if name.lower().endswith((".csv", ".tsv", ".txt")) else raw
     fmt, rows = parse_instrument_file(name, content)
-    results = validate_rows(rows, criteria[assay_id])
+    results = validate_rows(rows, criteria[assay_id], plate_map)
     counts, overall = summarize(results)
     audit.record(sha=audit.file_sha(raw), filename=name, fmt=fmt, assay=assay_id,
                  counts=counts, overall=overall, delivery="mcp-check (not delivered)")

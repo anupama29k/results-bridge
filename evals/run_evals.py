@@ -27,7 +27,8 @@ def run() -> int:
     print("-" * 78)
     for case in cases:
         try:
-            out = tools.check_file(str(ROOT / case["file"]), case["assay_id"])
+            pm = str(ROOT / case["plate_map"]) if case.get("plate_map") else None
+            out = tools.check_file(str(ROOT / case["file"]), case["assay_id"], pm)
             got = {"summary": out["summary"], "overall": out["overall"]}
             if got == case["expect"]:
                 print(f"{case['name']:42} {'PASS':8} {got['summary']}")
