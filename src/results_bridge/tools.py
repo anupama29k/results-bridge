@@ -1,5 +1,5 @@
-"""M5 tool layer: the three operations an AI assistant can perform on
-Results Bridge, written as plain Python functions.
+"""Tool layer: the operations an AI assistant can perform on Results
+Bridge, written as plain Python functions.
 
 Design note: the MCP server in mcp_server.py is a thin wrapper that
 registers THESE functions as tools. Keeping the logic here, SDK-free,
@@ -49,22 +49,19 @@ def recent_audit(limit: int = 20) -> list:
     """Return the most recent audit rows, newest first."""
     return audit.recent(limit)
 
-def search_protocols(query: str) -> list:
-    """Search the robotic-assays protocol library by name.
 
-    *** M6 (Anu): implement. ***
-    Contract:
-      * from .library import load_all_assays, display_name
-      * case-insensitive substring match of `query` against each entry's
-        display_name(entry)
-      * return compact hits (full protocols come from get_protocol):
-          {"name": display_name(e), "source": e["source"],
-           "automation_difficulty": e.get("automation_difficulty"),
-           "regulatory": e.get("regulatory", [])}
-      * empty list when nothing matches — an empty search is an answer,
-        not an error
-    """
-    raise NotImplementedError("M6: Anu implements search_protocols — see docstring")
+def search_protocols(query: str) -> list:
+    """Search the robotic-assays protocol library by name (case-insensitive
+    substring). Compact hits only — full protocols come from get_protocol.
+    An empty result is an answer, not an error."""
+    from .library import load_all_assays, display_name
+    q = query.lower()
+    return [
+        {"name": display_name(e), "source": e["source"],
+         "automation_difficulty": e.get("automation_difficulty"),
+         "regulatory": e.get("regulatory", [])}
+        for e in load_all_assays() if q in display_name(e).lower()
+    ]
 
 
 def get_protocol(name: str) -> dict:
@@ -72,13 +69,14 @@ def get_protocol(name: str) -> dict:
     criterion (including the curve/ratio ones the validator can't score),
     troubleshooting, regulatory references, automation notes.
 
-    *** M6 (Anu): implement. ***
-    Contract:
-      * case-insensitive EXACT match on display_name(entry)
-      * if several modules define the same name, return the LAST match
-        (module order puts v2 schemas after v1 — newest schema wins)
-      * no match: raise ValueError(f"no protocol named '{name}'; try
-        search_protocols first") — steer the caller to discovery
-      * return the entry dict as-is (it already carries `source`)
-    """
-    raise NotImplementedError("M6: Anu implements get_protocol — see docstring")
+    Case-insensitive exact match on the display name. When several modules
+    define the same assay, the LAST match wins — module order puts v2
+    schemas after v1, so the newest schema prevails."""
+    from .library import load_all_assays, display_name
+    match = None
+    for e in load_all_assays():
+        if display_name(e).lower() == name.lower():
+            match = e
+    if match is None:
+        raise ValueError(f"no protocol named '{name}'; try search_protocols first")
+    return match
