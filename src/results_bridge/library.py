@@ -1,43 +1,42 @@
 """Read-only access to the robotic-assays protocol library (the hub).
 
-Loads the assay definitions from the five field modules and serves them
-as one merged, source-tagged list. This is the knowledge counterpart to
-parsers.py (which reuses the hub's *code*; this reuses its *data*).
+Discovers the field_*.py modules present in the library checkout and
+merges their assay lists into one source-tagged collection. Discovery
+(not a hardcoded module list) means the hub can add or remove field
+files without breaking this consumer — the lesson of a real bug: a
+hardcoded list broke the day the hub deleted its v1 biopharma file.
 
 Import of `results_bridge.parsers` first is deliberate: it locates the
 library checkout, puts it on sys.path, and stubs optional upstream
 dependencies — this module rides on that setup rather than repeating it.
 """
+import glob
 import importlib
+import os
 
 from . import parsers  # noqa: F401  (side effect: library on sys.path)
-
-# module name -> attribute holding its assay list
-_FIELD_MODULES = {
-    "field_01_biopharma": "BIOPHARMA_ASSAYS",
-    "field_01_biopharma_v2": "BIOPHARMA_ASSAYS",
-    "field_03_genomics_ngs": "GENOMICS_ASSAYS",
-    "field_04_drug_discovery_hts_v2": "HTS_ASSAYS",
-    "field_05_core_lab_methods": "CORE_LAB_METHODS_ASSAYS",
-}
+from .parsers import _LIB
 
 _cache = None
 
 
 def load_all_assays() -> list:
-    """All assay entries from the library, each tagged with its `source`
-    module. Later modules win on name collisions when callers de-dupe
-    (v2 schemas come after v1 in _FIELD_MODULES order). Cached after
-    the first call — the library is static for the process lifetime."""
+    """All assay entries from every field_*.py module in the library,
+    each tagged with its `source` module. Modules load in sorted filename
+    order, so v2 files come after v1 — callers that keep the last match
+    get the newest schema. Cached after the first call."""
     global _cache
     if _cache is None:
         merged = []
-        for mod_name, attr in _FIELD_MODULES.items():
+        for path in sorted(glob.glob(os.path.join(_LIB, "field_*.py"))):
+            mod_name = os.path.splitext(os.path.basename(path))[0]
             mod = importlib.import_module(mod_name)
-            for entry in getattr(mod, attr):
-                e = dict(entry)
-                e["source"] = mod_name
-                merged.append(e)
+            for attr in dir(mod):
+                if attr.endswith("_ASSAYS") and isinstance(getattr(mod, attr), list):
+                    for entry in getattr(mod, attr):
+                        e = dict(entry)
+                        e["source"] = mod_name
+                        merged.append(e)
         _cache = merged
     return _cache
 

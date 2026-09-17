@@ -66,7 +66,7 @@ def recent_audit(limit: int = 20) -> list:
 
 @mcp.tool()
 def search_protocols(query: str) -> list:
-    """Search the 76-entry robotic-assays protocol library by assay name
+    """Search the robotic-assays protocol library by assay name
     (case-insensitive substring). Returns compact hits with source module,
     automation difficulty, and regulatory references. Use get_protocol for
     the full entry."""
