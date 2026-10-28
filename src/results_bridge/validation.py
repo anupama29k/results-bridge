@@ -13,7 +13,13 @@ blank. Rules may be one-sided (min only, or max only), and a rule of
 {"skip": true} excludes those wells from validation entirely. Without a
 plate map, behavior is exactly as before: every row judged by the
 assay's default min/max.
+
+M8 -- plate maps may also give each well a dict ({"role": ..., "conc": ...});
+only the role matters here. Plate-level criteria (curve fit, CV, recovery)
+are scored by plate_scoring.py.
 """
+from __future__ import annotations
+
 import json, os
 from typing import Any
 
@@ -33,11 +39,13 @@ def _dig(row: dict, path: list) -> Any:
     return cur
 
 def validate_rows(rows: list, crit: dict, plate_map: dict = None) -> list:
+    from .plate_scoring import normalize_plate_map, role_of
     roles = crit.get("roles", {})
+    pm_wells = normalize_plate_map(plate_map)[0] if plate_map is not None else {}
     out = []
     for r in rows:
         well = r.get("well_position") or r.get("sample_id")
-        role = (plate_map or {}).get(well, "sample")
+        role = role_of(pm_wells, well)
         rule = roles.get(role) if plate_map is not None else None
         if rule is None:
             rule = {"min": crit.get("min"), "max": crit.get("max")}
@@ -70,3 +78,22 @@ def summarize(results: list) -> tuple:
         counts[r["verdict"]] += 1
     overall = "ALL_PASS" if counts["FAIL"] == 0 and counts["INVALID"] == 0 else "ATTENTION_REQUIRED"
     return counts, overall
+
+
+def plate_values(rows: list, crit: dict) -> dict:
+    """{well: numeric value} for plate-level scoring."""
+    out = {}
+    for r in rows:
+        well = r.get("well_position") or r.get("sample_id")
+        v = _dig(r, crit["param_path"])
+        out[well] = float(v) if isinstance(v, (int, float)) else None
+    return out
+
+
+def combine_overall(well_overall: str, plate: dict | None) -> str:
+    """A plate that was scored and did not PASS downgrades the overall verdict.
+    A plate that was not scored (no plate block, or no standards in the map)
+    leaves it unchanged -- and says so in the plate result."""
+    if plate is None or plate.get("verdict") in (None, "NOT_EVALUATED"):
+        return well_overall
+    return well_overall if plate["verdict"] == "PASS" else "ATTENTION_REQUIRED"

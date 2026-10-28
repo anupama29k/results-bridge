@@ -38,7 +38,11 @@ def test_list_assays_shape():
     assert ids == sorted(ids)  # contract says sorted
     ngs = next(a for a in assays if a["assay_id"] == "NGS_001_library_prep_input")
     assert ngs["min"] == 10.0 and ngs["max"] == 100.0 and ngs["unit"] == "ng/uL"
-    assert set(ngs) == {"assay_id", "description", "regulatory", "min", "max", "unit"}
+    assert set(ngs) == {"assay_id", "description", "regulatory", "min", "max", "unit",
+                        "plate_criteria"}
+    assert ngs["plate_criteria"] == []                    # well-level only
+    bca = next(a for a in assays if a["assay_id"] == "PROT_002_bca_od562")
+    assert "standard_curve_r2" in bca["plate_criteria"]   # M8 plate-level
 
 
 def test_check_file_qubit_end_to_end():

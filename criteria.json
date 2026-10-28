@@ -33,6 +33,72 @@
         "min": 0.1,
         "max": 3.5
       }
+    },
+    "plate": {
+      "library_assay_id": "BIO_005",
+      "model": "4pl",
+      "blank_subtract": false,
+      "fit_includes_blank": true,
+      "conc_unit": "x top standard",
+      "criteria": [
+        {
+          "key": "standard_curve_r2",
+          "type": "curve_r2",
+          "min": 0.995,
+          "source": "BIO_005 acceptance_criteria (prose: '>= 0.995 (4PL fit)')"
+        },
+        {
+          "key": "curve_bottom_asymptote_od",
+          "type": "fit_param",
+          "param": "bottom",
+          "max": 0.1,
+          "unit": "AU",
+          "source": "BIO_005 acceptance_criteria (prose: '< 0.10')"
+        },
+        {
+          "key": "curve_top_asymptote_od",
+          "type": "fit_param",
+          "param": "top",
+          "min": 1.5,
+          "unit": "AU",
+          "source": "BIO_005 acceptance_criteria (prose: '> 1.5')"
+        },
+        {
+          "key": "intraplate_cv_max",
+          "type": "replicate_cv_max",
+          "max": 15.0,
+          "unit": "%",
+          "applies_to": [
+            "standard",
+            "sample",
+            "qc"
+          ],
+          "source": "BIO_005 acceptance_criteria (prose: '<= 15%')"
+        },
+        {
+          "key": "qc_sample_recovery",
+          "type": "qc_recovery",
+          "min": 80,
+          "max": 120,
+          "unit": "%",
+          "source": "BIO_005 acceptance_criteria (prose: '80-120% of expected')"
+        },
+        {
+          "key": "ppc_recovery",
+          "type": "spike_recovery",
+          "min": 70,
+          "max": 130,
+          "unit": "%",
+          "source": "BIO_005 acceptance_criteria (prose: '70-130% of spike concentration')"
+        }
+      ],
+      "flags": [
+        {
+          "type": "signal_above",
+          "value": 3.0,
+          "message": "OD450 > 3.0 (saturation) -- repeat at higher dilution (BIO_005 step 18)"
+        }
+      ]
     }
   },
   "NGS_002_library_fragment_size": {
@@ -87,6 +153,76 @@
     "regulatory": [
       "ICH Q6B",
       "USP <1057>"
-    ]
+    ],
+    "roles": {
+      "blank": {
+        "max": 0.1
+      },
+      "standard": {
+        "max": 3.5
+      },
+      "sample": {
+        "min": 0.1,
+        "max": 3.5
+      },
+      "qc": {
+        "min": 0.1,
+        "max": 3.5
+      }
+    },
+    "plate": {
+      "library_assay_id": "BIO_002",
+      "model": "linear",
+      "blank_subtract": true,
+      "fit_includes_blank": false,
+      "conc_unit": "ug/mL",
+      "compare_models": [
+        "quadratic",
+        "4pl"
+      ],
+      "note": "Library prose specifies a linear curve with R2 >= 0.995. BCA is curvilinear over 31-2000 ug/mL, so alternative-model R2 is reported for information; the verdict uses the library's linear rule until the method owner changes 'model'.",
+      "criteria": [
+        {
+          "key": "standard_curve_r2",
+          "type": "curve_r2",
+          "min": 0.995,
+          "source": "BIO_002 acceptance_criteria (prose: '>= 0.995')"
+        },
+        {
+          "key": "blank_od562_max",
+          "type": "blank_mean_max",
+          "max": 0.1,
+          "unit": "AU",
+          "source": "BIO_002 acceptance_criteria (prose: '< 0.10')"
+        },
+        {
+          "key": "duplicate_cv_max",
+          "type": "replicate_cv_max",
+          "max": 5.0,
+          "unit": "%",
+          "applies_to": [
+            "standard",
+            "sample",
+            "qc"
+          ],
+          "source": "BIO_002 acceptance_criteria (prose: '<= 5%')"
+        },
+        {
+          "key": "qc_sample_recovery",
+          "type": "qc_recovery",
+          "min": 90,
+          "max": 110,
+          "unit": "%",
+          "source": "BIO_002 acceptance_criteria (prose: '90-110% of expected')"
+        }
+      ],
+      "flags": [
+        {
+          "type": "signal_above",
+          "value": 2.0,
+          "message": "OD562 > 2.0 is outside the linear range -- re-run at 1:10 dilution (BIO_002 step 13)"
+        }
+      ]
+    }
   }
 }

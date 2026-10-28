@@ -13,7 +13,8 @@ import os
 
 from . import audit
 from .parsers import parse_instrument_file
-from .validation import load_criteria, validate_rows, summarize
+from .validation import load_criteria, validate_rows, summarize, plate_values, combine_overall
+from .plate_scoring import score_plate
 
 
 def list_assays() -> list:
@@ -22,7 +23,8 @@ def list_assays() -> list:
     return [
         {"assay_id": k, "description": v["description"],
          "regulatory": v.get("regulatory", []),
-         "min": v["min"], "max": v["max"], "unit": v["unit"]}
+         "min": v["min"], "max": v["max"], "unit": v["unit"],
+         "plate_criteria": [c["key"] for c in v.get("plate", {}).get("criteria", [])]}
         for k, v in sorted(crit.items())
     ]
 
@@ -33,7 +35,13 @@ def check_file(file_path: str, assay_id: str, plate_map_path: str = None) -> dic
 
     M7: an optional plate map (JSON file of {well: role}) makes validation
     role-aware — blanks judged as blanks, samples as samples — using the
-    per-role rules in the assay's criteria entry."""
+    per-role rules in the assay's criteria entry.
+
+    M8: when the assay has a "plate" block and the plate map gives standard
+    concentrations, the plate is also scored as a whole (curve fit, blank,
+    replicate CV, QC/spike recovery) and the result is returned under
+    "plate". A plate that is scored and does not PASS makes the overall
+    verdict ATTENTION_REQUIRED."""
     criteria = load_criteria()
     if assay_id not in criteria:
         raise ValueError(f"unknown assay_id '{assay_id}'; known: {sorted(criteria)}")
@@ -45,12 +53,21 @@ def check_file(file_path: str, assay_id: str, plate_map_path: str = None) -> dic
     raw = open(file_path, "rb").read()
     content = raw.decode("utf-8") if name.lower().endswith((".csv", ".tsv", ".txt")) else raw
     fmt, rows = parse_instrument_file(name, content)
-    results = validate_rows(rows, criteria[assay_id], plate_map)
+    crit = criteria[assay_id]
+    results = validate_rows(rows, crit, plate_map)
     counts, overall = summarize(results)
+    plate = None
+    if plate_map is not None and "plate" in crit:
+        plate = score_plate(plate_values(rows, crit), plate_map, crit["plate"])
+    overall = combine_overall(overall, plate)
     audit.record(sha=audit.file_sha(raw), filename=name, fmt=fmt, assay=assay_id,
-                 counts=counts, overall=overall, delivery="mcp-check (not delivered)")
-    return {"file": name, "assay_id": assay_id, "format": fmt,
-            "summary": counts, "overall": overall, "results": results}
+                 counts=counts, overall=overall, delivery="mcp-check (not delivered)",
+                 plate_verdict=None if plate is None else plate["verdict"])
+    out = {"file": name, "assay_id": assay_id, "format": fmt,
+           "summary": counts, "overall": overall, "results": results}
+    if plate is not None:
+        out["plate"] = plate
+    return out
 
 
 def recent_audit(limit: int = 20) -> list:
