@@ -42,6 +42,22 @@ The robotic-assays Opentrons code generator writes these maps for every protocol
 
 A plate verdict is **PASS**, **FAIL**, **INVALID** (could not be computed, e.g. the fit failed) or **INCOMPLETE** (a configured criterion had nothing to score, e.g. no QC wells). INCOMPLETE is never reported as a pass: a scored plate that is not PASS turns the overall verdict to `ATTENTION_REQUIRED`. Role-only (M7) maps still work exactly as before; their plate result is `NOT_EVALUATED`.
 
+## Gravimetric liquid-class verification
+
+The other half of a validation pack: does the robot deliver the volume it is told to, for each real liquid? `check_gravimetric` (MCP) and `POST /gravimetric` take balance data and return, per liquid × target volume × channel, mean volume, **%DEV** (systematic error), **%CV** (random error) and PASS / FAIL / INVALID against `gravimetric.json`.
+
+- Mass → volume the ISO 8655-6 way: `V = m / (ρL − ρair) × (1 − ρair / ρweights)`, water density from temperature (Tanaka 2001); tests check the result against ISO 8655-6 Z-factors (1.0029 µL/mg at 20 °C).
+- Non-water liquids use their density from `gravimetric.json` or a `# density_<liquid>:` file header. A liquid with no known density is **INVALID** — never silently converted as water.
+- Inputs: the gravimetric template CSV (`liquid, target_uL, channel, replicate, mass_mg`, `#` metadata lines; LabX-style `weight, unit` columns also map) or a raw **Mettler SICS / Sartorius** print stream, tared per dispense or cumulative on one vessel (auto-detected and reported).
+- Fewer than 10 dispenses, or no temperature, is INVALID. Dispenses > 3 SD from the mean are flagged for investigation, not removed.
+- Limits are project defaults by volume band (≤ 20 µL: 5 % / 5 %; ≤ 100 µL: 3 % / 3 %; ≤ 1000 µL: 2 % / 2 %) with per-liquid overrides. Agree them with the client before verification.
+
+```bash
+curl -F "file=@tests/fixtures/gravimetric_template.csv" localhost:8080/gravimetric
+curl -F "file=@tests/fixtures/balance_sics_cumulative.txt" -F liquid=water -F target_uL=100 \
+     -F temperature_C=21.0 localhost:8080/gravimetric
+```
+
 ## Run it (keyless, 60 seconds)
 
 ```bash
@@ -61,6 +77,7 @@ Live mode: set `BENCHLING_API_URL` and `BENCHLING_API_KEY` in the environment (n
 | `src/results_bridge/main.py` | FastAPI service: `/ingest`, `/audit`, `/healthz` |
 | `src/results_bridge/parsers.py` | Adapter over the robotic-assays ingestion module |
 | `src/results_bridge/validation.py` + `criteria.json` | Acceptance-criteria engine and the per-assay rules |
+| `src/results_bridge/gravimetric.py` + `gravimetric.json` | Balance data → liquid-class %DEV / %CV table |
 | `src/results_bridge/plate_scoring.py` | Plate-level scoring: curve fit, blank, CV, QC / spike recovery, back-calculation |
 | `src/results_bridge/benchling.py` | Delivery layer: dry-run client + live client (auth, idempotency, retries) |
 | `src/results_bridge/audit.py` | Append-only SQLite audit log |
