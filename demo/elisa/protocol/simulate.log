@@ -1,0 +1,2656 @@
+DAY 1 -- coat
+Picking up tip from A1 of Tips, multichannel reagents on slot 8
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 94.0 uL/sec
+Dispensing 100.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Pausing robot operation: Seal the plate and incubate overnight at 4 C (log start time and fridge temperature). Next day: return the unsealed plate to slot 1 and resume.
+DAY 2 -- remove coat, wash x3
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 1/3
+Picking up tip from A2 of Tips, multichannel reagents on slot 8
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 2/3
+Picking up tip from A3 of Tips, multichannel reagents on slot 8
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 3/3
+Picking up tip from A4 of Tips, multichannel reagents on slot 8
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Block 200 uL; standards and sample dilutions are prepared during the block
+Picking up tip from A5 of Tips, multichannel reagents on slot 8
+Aspirating 200.0 uL from A2 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A2 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A2 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A2 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A2 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A2 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A2 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A2 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 200.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Standards: 8-point 2-fold in dilution plate column 1 (H1 = 0 = blank)
+Picking up tip from A1 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 250.0 uL into B1 of Dilution plate on slot 2 at 92.86 uL/sec
+Aspirating 250.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 250.0 uL into C1 of Dilution plate on slot 2 at 92.86 uL/sec
+Aspirating 250.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 250.0 uL into D1 of Dilution plate on slot 2 at 92.86 uL/sec
+Aspirating 250.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 250.0 uL into E1 of Dilution plate on slot 2 at 92.86 uL/sec
+Aspirating 250.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 250.0 uL into F1 of Dilution plate on slot 2 at 92.86 uL/sec
+Aspirating 250.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 250.0 uL into G1 of Dilution plate on slot 2 at 92.86 uL/sec
+Aspirating 250.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 250.0 uL into H1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B1 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from D6 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 250.0 uL into A1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C1 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from D6 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 250.0 uL into A1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D1 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from A1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 250.0 uL into B1 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E1 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from B1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 250.0 uL into C1 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F1 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from C1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 250.0 uL into D1 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G1 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from D1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 250.0 uL into E1 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H1 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from E1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 250.0 uL into F1 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A2 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from F1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 250.0 uL into G1 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B2 of Tips, single-channel on slot 7
+Aspirating 250.0 uL from G1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Samples 1:3 in blocking buffer, dilution plate columns 3-7
+Picking up tip from A6 of Tips, multichannel reagents on slot 8
+Aspirating 200.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 94.0 uL/sec
+Blowing out at A3 of Dilution plate on slot 2
+Aspirating 200.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 94.0 uL/sec
+Blowing out at A4 of Dilution plate on slot 2
+Aspirating 200.0 uL from A3 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 94.0 uL/sec
+Blowing out at A5 of Dilution plate on slot 2
+Aspirating 200.0 uL from A4 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 94.0 uL/sec
+Blowing out at A6 of Dilution plate on slot 2
+Aspirating 200.0 uL from A4 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 94.0 uL/sec
+Blowing out at A7 of Dilution plate on slot 2
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C2 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A1 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into A3 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D2 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B1 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into B3 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E2 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C1 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into C3 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F2 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D1 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into D3 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G2 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A2 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into E3 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H2 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B2 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into F3 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A3 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C2 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into G3 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B3 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D2 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into H3 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C3 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A3 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into A4 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D3 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B3 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into B4 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E3 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C3 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into C4 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F3 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D3 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into D4 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G3 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A4 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into E4 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H3 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B4 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into F4 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A4 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C4 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into G4 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B4 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D4 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into H4 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C4 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A5 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into A5 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D4 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B5 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into B5 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E4 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C5 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into C5 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F4 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D5 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into D5 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G4 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A6 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into E5 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H4 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B6 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into F5 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A5 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C6 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into G5 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B5 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D6 of Samples 1-24 on slot 4 at 92.86 uL/sec
+Dispensing 100.0 uL into H5 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C5 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A1 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into A6 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D5 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B1 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into B6 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E5 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C1 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into C6 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F5 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D1 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into D6 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G5 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A2 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into E6 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H5 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B2 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into F6 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A6 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C2 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into G6 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B6 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D2 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into H6 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C6 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A3 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into A7 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D6 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B3 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into B7 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from B7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into B7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E6 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C3 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into C7 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from C7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into C7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F6 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D3 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into D7 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from D7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into D7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G6 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from A4 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into E7 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from E7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into E7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H6 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from B4 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into F7 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from F7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into F7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A7 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from C4 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into G7 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from G7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into G7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B7 of Tips, single-channel on slot 7
+Aspirating 100.0 uL from D4 of Samples 25-40; top standard in D6 on slot 5 at 92.86 uL/sec
+Dispensing 100.0 uL into H7 of Dilution plate on slot 2 at 92.86 uL/sec
+Mixing 5 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Aspirating 200.0 uL from H7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into H7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dropping tip into Trash Bin on slot 12
+Delaying for 60 minutes and 0.0 seconds. Block >= 60 min at room temperature (dilution prep time adds to this)
+Pausing robot operation: Empty the liquid waste reservoir (Liquid waste) and return it to the deck, then resume.
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 200.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 200.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 1/3
+Picking up tip from A7 of Tips, multichannel reagents on slot 8
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 2/3
+Picking up tip from A8 of Tips, multichannel reagents on slot 8
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 3/3
+Picking up tip from A9 of Tips, multichannel reagents on slot 8
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Standards -> cols 1-2; samples -> duplicate column pairs; 100 uL
+Picking up tip from A10 of Tips, multichannel reagents on slot 8
+Mixing 3 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A1 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Dilution plate on slot 2 at 94.0 uL/sec
+Aspirating 100.0 uL from A1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A1 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A11 of Tips, multichannel reagents on slot 8
+Mixing 3 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A3 of Dilution plate on slot 2 at 94.0 uL/sec
+Aspirating 100.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A3 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A12 of Tips, multichannel reagents on slot 8
+Mixing 3 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A4 of Dilution plate on slot 2 at 94.0 uL/sec
+Aspirating 100.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A4 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, multichannel reagents (2) on slot 11
+Mixing 3 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A5 of Dilution plate on slot 2 at 94.0 uL/sec
+Aspirating 100.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A2 of Tips, multichannel reagents (2) on slot 11
+Mixing 3 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A6 of Dilution plate on slot 2 at 94.0 uL/sec
+Aspirating 100.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A3 of Tips, multichannel reagents (2) on slot 11
+Mixing 3 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 94.0 uL/sec
+	Aspirating 200.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+	Dispensing 200.0 uL into A7 of Dilution plate on slot 2 at 94.0 uL/sec
+Aspirating 100.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Dilution plate on slot 2 at 92.86 uL/sec
+Dispensing 100.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Delaying for 120 minutes and 0.0 seconds. Sample incubation 2 h at room temperature
+Pausing robot operation: Empty the liquid waste reservoir (Liquid waste) and return it to the deck, then resume.
+Pausing robot operation: Refill PBST (PBST wash buffer) to 195 mL (full), then resume.
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 1/3
+Picking up tip from A4 of Tips, multichannel reagents (2) on slot 11
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 2/3
+Picking up tip from A5 of Tips, multichannel reagents (2) on slot 11
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 3/3
+Picking up tip from A6 of Tips, multichannel reagents (2) on slot 11
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+HRP detection antibody 100 uL
+Picking up tip from A7 of Tips, multichannel reagents (2) on slot 11
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A5 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Delaying for 60 minutes and 0.0 seconds. Detection antibody 1 h at room temperature
+Pausing robot operation: Empty the liquid waste reservoir (Liquid waste) and return it to the deck, then resume.
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 100.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 100.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 1/3
+Picking up tip from A8 of Tips, multichannel reagents (2) on slot 11
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 2/3
+Picking up tip from A9 of Tips, multichannel reagents (2) on slot 11
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+Wash cycle 3/3
+Picking up tip from A10 of Tips, multichannel reagents (2) on slot 11
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 300.0 uL from A1 of PBST wash buffer on slot 6 at 92.86 uL/sec
+Dispensing 300.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A1 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A1 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A2 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A2 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A3 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A3 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A4 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A4 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A5 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A5 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A6 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A6 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A7 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A7 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A8 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A8 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A9 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A9 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A10 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A10 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A11 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A11 of Tips, per-column removal (reused) on slot 10
+Picking up tip from A12 of Tips, per-column removal (reused) on slot 10
+Aspirating 300.0 uL from A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid waste on slot 9 at 94.0 uL/sec
+Blowing out at A1 of Liquid waste on slot 9
+Returning tip
+	Dropping tip into A12 of Tips, per-column removal (reused) on slot 10
+TMB 100 uL -- columns 1->12; protect from light
+Picking up tip from A11 of Tips, multichannel reagents (2) on slot 11
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A6 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Delaying for 10 minutes and 0.0 seconds. TMB development exactly 10 min (timed from first column)
+Stop solution 100 uL in the same column order as TMB
+Picking up tip from A12 of Tips, multichannel reagents (2) on slot 11
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A1 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A1 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A2 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A2 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A3 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A3 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A4 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A4 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A5 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A5 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A6 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A6 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A7 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A7 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A8 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A8 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A9 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A9 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A10 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A10 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A11 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A11 of ELISA plate (high-binding flat-bottom) on slot 1
+Aspirating 100.0 uL from A7 of Reagents: capture A1, block/diluent A2-A4, HRP A5, TMB A6, stop A7 on slot 3 at 92.86 uL/sec
+Dispensing 100.0 uL into A12 of ELISA plate (high-binding flat-bottom) on slot 1 at 94.0 uL/sec
+Blowing out at A12 of ELISA plate (high-binding flat-bottom) on slot 1
+Dropping tip into Trash Bin on slot 12
+Pausing robot operation: Read OD450 with 620 nm reference within 30 min. Upload the reader export to Results Bridge (assay ELISA_001_tmb_endpoint) with plate_maps/BIO_005_plate_map.json.
+/root/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/root/.opentrons/deck_calibration.json not found. Loading defaults

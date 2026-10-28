@@ -58,6 +58,14 @@ curl -F "file=@tests/fixtures/balance_sics_cumulative.txt" -F liquid=water -F ta
      -F temperature_C=21.0 localhost:8080/gravimetric
 ```
 
+## Validation pack
+
+`python -m results_bridge.pack <manifest.json> --out pack.html [--pdf pack.pdf]` (or the `build_validation_pack` MCP tool) turns one engagement into the deliverable: a 12-section research-use validation pack — scope, system record, deck and fill sheet, protocol verification (simulator log), pre-agreed acceptance criteria, liquid-class table (OQ), every PQ run with its standard curve and back-calculated samples, an auto-generated deviation log, limitations, change control, SHA-256 traceability for every input, and training / sign-off tables.
+
+The status is **computed, never typed**: ACCEPTED only when the protocol simulated cleanly, every required liquid class passed on every channel, and the required number of consecutive PQ runs (default 3) passed every plate criterion. Manifests with `"demonstration": true` are watermarked on every page.
+
+`demo/elisa/` is a complete simulated engagement (OT-2 sandwich ELISA: 5 PQ runs with an injected pipetting fault in PQ-2, 8 liquid classes across two pipettes). Rebuild it with `python demo/elisa/make_demo.py`; PDF output needs `pip install -r requirements-pack.txt`.
+
 ## Run it (keyless, 60 seconds)
 
 ```bash
@@ -78,6 +86,7 @@ Live mode: set `BENCHLING_API_URL` and `BENCHLING_API_KEY` in the environment (n
 | `src/results_bridge/parsers.py` | Adapter over the robotic-assays ingestion module |
 | `src/results_bridge/validation.py` + `criteria.json` | Acceptance-criteria engine and the per-assay rules |
 | `src/results_bridge/gravimetric.py` + `gravimetric.json` | Balance data → liquid-class %DEV / %CV table |
+| `src/results_bridge/pack.py` + `demo/elisa/` | Validation-pack assembler and the demonstration engagement |
 | `src/results_bridge/plate_scoring.py` | Plate-level scoring: curve fit, blank, CV, QC / spike recovery, back-calculation |
 | `src/results_bridge/benchling.py` | Delivery layer: dry-run client + live client (auth, idempotency, retries) |
 | `src/results_bridge/audit.py` | Append-only SQLite audit log |

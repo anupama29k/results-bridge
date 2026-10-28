@@ -23,7 +23,7 @@ INPUT FORMATS
     1. Template CSV (recommended; also maps LabX-style exports). '#' lines are
        metadata ("# temperature_C: 21.4"); then a header with columns
        (case-insensitive aliases):
-         liquid | target_uL | channel (opt.) | replicate (opt.) |
+         liquid | target_uL | pipette (opt.) | channel (opt.) | replicate (opt.) |
          mass_mg  or  mass_g  or  weight + unit | temperature_C (opt.)
     2. Balance print stream: Mettler-Toledo SICS lines ("S S  0.02345 g") or
        Sartorius lines ("+ 0.02345 g" / "N + 0.02345 g"). No liquid or target
@@ -56,6 +56,7 @@ _SARTORIUS = re.compile(r"^\s*(?:N\s+)?([-+])\s*(\d+(?:\.\d+)?)\s*(mg|g)\b", re.
 COLUMN_ALIASES = {
     "liquid": ("liquid", "liquid_class", "reagent", "liquid class"),
     "target_uL": ("target_ul", "target_volume_ul", "target volume (ul)", "volume_ul", "target"),
+    "pipette": ("pipette", "instrument", "pipette_model"),
     "channel": ("channel", "tip", "well", "pipette_channel"),
     "replicate": ("replicate", "rep", "n", "dispense"),
     "mass_mg": ("mass_mg", "mass (mg)", "weight_mg", "weight (mg)"),
@@ -145,7 +146,7 @@ def parse_template_csv(text: str) -> tuple[dict, list]:
             raise ValueError(f"row {n}: {exc}") from exc
         temp = cell("temperature_C")
         readings.append({
-            "liquid": cell("liquid"), "target_uL": target,
+            "liquid": cell("liquid"), "target_uL": target, "pipette": cell("pipette"),
             "channel": cell("channel") or "1", "replicate": cell("replicate") or str(len(readings) + 1),
             "mass_mg": mass, "temperature_C": float(temp) if temp else None})
     return meta, readings
@@ -169,7 +170,7 @@ def parse_balance_stream(text: str) -> list[float]:
 
 
 def stream_to_readings(values_mg: list, liquid: str, target_uL: float, mode: str = "auto",
-                       channel: str = "1") -> tuple[str, list]:
+                       channel: str = "1", pipette: str = "") -> tuple[str, list]:
     """Per-dispense masses from a stream. Returns (mode_used, readings)."""
     if mode == "auto":
         increasing = all(b > a for a, b in zip(values_mg, values_mg[1:]))
@@ -181,7 +182,7 @@ def stream_to_readings(values_mg: list, liquid: str, target_uL: float, mode: str
         masses = list(values_mg)
     else:
         raise ValueError(f"mode must be auto, individual or cumulative, not {mode!r}")
-    return mode, [{"liquid": liquid, "target_uL": float(target_uL), "channel": channel,
+    return mode, [{"liquid": liquid, "target_uL": float(target_uL), "pipette": pipette, "channel": channel,
                    "replicate": str(i + 1), "mass_mg": m, "temperature_C": None}
                   for i, m in enumerate(masses)]
 
@@ -216,12 +217,16 @@ def score_gravimetric(readings: list, cfg: dict, meta: dict | None = None,
     air = float(meta.get("air_density_g_per_mL", cfg.get("air_density_g_per_mL", 0.0012)))
     groups = defaultdict(list)
     for r in readings:
-        groups[(r["liquid"], r["target_uL"], r["channel"])].append(r)
+        groups[(r["liquid"], r["target_uL"], r.get("pipette", ""), r["channel"])].append(r)
 
     out, flags = [], []
-    for (liquid, target, channel), rs in sorted(groups.items(), key=lambda kv: (kv[0][0].lower(), kv[0][1], kv[0][2])):
+    def _chan_key(ch):
+        return (0, int(ch)) if str(ch).isdigit() else (1, str(ch))
+
+    for (liquid, target, pipette, channel), rs in sorted(
+            groups.items(), key=lambda kv: (kv[0][0].lower(), kv[0][1], kv[0][2], _chan_key(kv[0][3]))):
         temps = [r["temperature_C"] if r["temperature_C"] is not None else default_t for r in rs]
-        row = {"liquid": liquid, "target_uL": target, "channel": channel, "n": len(rs)}
+        row = {"liquid": liquid, "target_uL": target, "pipette": pipette, "channel": channel, "n": len(rs)}
         try:
             band = limits_for(target, cfg, liquid)
         except ValueError as exc:
@@ -264,7 +269,7 @@ def score_gravimetric(readings: list, cfg: dict, meta: dict | None = None,
             out_reps = [rs[i]["replicate"] for i, v in enumerate(vols) if abs(v - mean) > 3 * sd]
             if out_reps:
                 flags.append({"type": "possible_outlier", "liquid": liquid, "target_uL": target,
-                              "channel": channel, "replicates": out_reps,
+                              "pipette": pipette, "channel": channel, "replicates": out_reps,
                               "message": "dispense > 3 SD from the mean -- investigate (bubble, "
                                          "droplet, evaporation); not removed automatically"})
         out.append(row)

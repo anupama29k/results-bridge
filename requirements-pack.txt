@@ -1,0 +1,3 @@
+# PDF output for the validation-pack assembler (HTML needs nothing extra).
+# weasyprint needs system Pango: apt-get install libpango-1.0-0 libpangoft2-1.0-0
+weasyprint>=60

@@ -1,0 +1,151 @@
+{
+  "pack_id": "VP-DEMO-ELISA-001",
+  "title": "Sandwich ELISA on Opentrons OT-2 -- demonstration validation pack",
+  "demonstration": true,
+  "client": {
+    "name": "Example Biologics (fictional)",
+    "site": "Bench 4, analytical development"
+  },
+  "robot": "Opentrons OT-2 (simulated, serial SIM-0001)",
+  "prepared_by": "Implementer (demonstration)",
+  "assay": {
+    "library_assay_id": "BIO_005",
+    "results_bridge_assay_id": "ELISA_001_tmb_endpoint"
+  },
+  "system": {
+    "Robot": "Opentrons OT-2, serial SIM-0001 (simulated)",
+    "Left pipette": "p300_single_gen2",
+    "Right pipette": "p300_multi_gen2",
+    "Plate reader": "Tecan Spark, 450 nm with 620 nm reference (simulated)",
+    "Balance": "Mettler-Toledo XPR206, 0.01 mg (simulated)"
+  },
+  "protocol": {
+    "path": "protocol/bio_005_ot2.py",
+    "simulator_log": "protocol/simulate.log",
+    "simulator": "opentrons_simulate (opentrons 8.8.2)",
+    "simulator_exit_code": 0
+  },
+  "liquid_classes_required": [
+    {
+      "liquid": "PBST",
+      "target_uL": 300,
+      "pipette": "p300_multi_gen2"
+    },
+    {
+      "liquid": "blocking_buffer",
+      "target_uL": 200,
+      "pipette": "p300_multi_gen2"
+    },
+    {
+      "liquid": "blocking_buffer",
+      "target_uL": 100,
+      "pipette": "p300_multi_gen2"
+    },
+    {
+      "liquid": "HRP_conjugate",
+      "target_uL": 100,
+      "pipette": "p300_multi_gen2"
+    },
+    {
+      "liquid": "TMB",
+      "target_uL": 100,
+      "pipette": "p300_multi_gen2"
+    },
+    {
+      "liquid": "stop_solution_2N_H2SO4",
+      "target_uL": 100,
+      "pipette": "p300_multi_gen2"
+    },
+    {
+      "liquid": "blocking_buffer",
+      "target_uL": 250,
+      "pipette": "p300_single_gen2"
+    },
+    {
+      "liquid": "serum_sample",
+      "target_uL": 100,
+      "pipette": "p300_single_gen2"
+    }
+  ],
+  "gravimetric": [
+    {
+      "path": "gravimetric/liquid_classes.csv",
+      "date": "2026-11-02",
+      "operator": "A. Analyst (simulated)"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "PQ-1",
+      "date": "2026-11-03",
+      "operator": "A. Analyst (simulated)",
+      "file": "runs/PQ-1_spark.xlsx",
+      "plate_map": "runs/plate_map.json",
+      "reagent_lots": {
+        "capture Ab": "CAP-2611",
+        "HRP": "HRP-0914",
+        "TMB": "TMB-771"
+      }
+    },
+    {
+      "run_id": "PQ-2",
+      "date": "2026-11-04",
+      "operator": "A. Analyst (simulated)",
+      "file": "runs/PQ-2_spark.xlsx",
+      "plate_map": "runs/plate_map.json",
+      "reagent_lots": {
+        "capture Ab": "CAP-2611",
+        "HRP": "HRP-0914",
+        "TMB": "TMB-772"
+      }
+    },
+    {
+      "run_id": "PQ-3",
+      "date": "2026-11-05",
+      "operator": "A. Analyst (simulated)",
+      "file": "runs/PQ-3_spark.xlsx",
+      "plate_map": "runs/plate_map.json",
+      "reagent_lots": {
+        "capture Ab": "CAP-2611",
+        "HRP": "HRP-0914",
+        "TMB": "TMB-773"
+      }
+    },
+    {
+      "run_id": "PQ-4",
+      "date": "2026-11-06",
+      "operator": "A. Analyst (simulated)",
+      "file": "runs/PQ-4_spark.xlsx",
+      "plate_map": "runs/plate_map.json",
+      "reagent_lots": {
+        "capture Ab": "CAP-2611",
+        "HRP": "HRP-0914",
+        "TMB": "TMB-774"
+      }
+    },
+    {
+      "run_id": "PQ-5",
+      "date": "2026-11-07",
+      "operator": "A. Analyst (simulated)",
+      "file": "runs/PQ-5_spark.xlsx",
+      "plate_map": "runs/plate_map.json",
+      "reagent_lots": {
+        "capture Ab": "CAP-2611",
+        "HRP": "HRP-0914",
+        "TMB": "TMB-775"
+      }
+    }
+  ],
+  "required_consecutive_passes": 3,
+  "training": [
+    {
+      "name": "A. Analyst (simulated)",
+      "topics": "deck loading, fill sheet, pauses, export upload, deviation handling",
+      "solo_run": "PQ-5",
+      "date": "2026-11-07"
+    }
+  ],
+  "limitations": [
+    "Standard concentrations are relative to the top standard; the absolute value is set per reference-standard lot."
+  ]
+}

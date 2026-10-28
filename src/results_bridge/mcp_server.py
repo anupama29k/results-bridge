@@ -76,6 +76,17 @@ def check_gravimetric(file_path: str, temperature_C: float = None, liquid: str =
 
 
 @mcp.tool()
+def build_validation_pack(manifest_path: str, out_html: str, out_pdf: str = None) -> dict:
+    """Assemble a research-use validation pack from an engagement manifest
+    (JSON: protocol + simulator log, gravimetric files, PQ runs with plate
+    maps, required liquid classes). Re-scores every input, hashes every
+    file, computes the acceptance status (never typed by hand) and writes a
+    12-section HTML pack, plus PDF when out_pdf is given and weasyprint is
+    installed. Demonstration manifests are watermarked on every page."""
+    return tools.build_validation_pack(manifest_path, out_html, out_pdf)
+
+
+@mcp.tool()
 def recent_audit(limit: int = 20) -> list:
     """Return the most recent audit-log entries (newest first): every file
     this service has checked or ingested, with verdict counts and delivery
