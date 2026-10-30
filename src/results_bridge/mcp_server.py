@@ -52,7 +52,12 @@ def check_file(file_path: str, assay_id: str, plate_map_path: str = None) -> dic
     Returns per-sample PASS/FAIL/INVALID verdicts with reasons and a
     summary. Records an audit row; never writes to Benchling. Optionally
     pass plate_map_path (a JSON file of {well: role}) for role-aware
-    validation: blanks judged as blanks, samples as samples."""
+    validation: blanks judged as blanks, samples as samples. If the plate
+    map also gives standard concentrations ({well: {"role": "standard",
+    "conc": ...}}), the whole plate is scored against the assay's
+    plate-level criteria -- standard-curve fit and R2, blank, replicate CV,
+    QC and spike recovery -- and sample concentrations are back-calculated;
+    see the "plate" key of the result."""
     return tools.check_file(file_path, assay_id, plate_map_path)
 
 

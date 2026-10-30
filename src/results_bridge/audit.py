@@ -10,25 +10,29 @@ def _conn():
         ts TEXT, file_sha256 TEXT, filename TEXT, fmt TEXT, assay TEXT,
         n_samples INT, n_pass INT, n_fail INT, n_invalid INT,
         overall TEXT, delivery TEXT)""")
+    cols = {r[1] for r in c.execute("PRAGMA table_info(audit)")}
+    if "plate_verdict" not in cols:       # M8: additive migration, old rows read NULL
+        c.execute("ALTER TABLE audit ADD COLUMN plate_verdict TEXT")
     return c
 
 def file_sha(content: bytes) -> str:
     return hashlib.sha256(content).hexdigest()
 
-def record(*, sha, filename, fmt, assay, counts, overall, delivery):
+def record(*, sha, filename, fmt, assay, counts, overall, delivery, plate_verdict=None):
     with _lock:
         c = _conn()
-        c.execute("INSERT INTO audit VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        c.execute("INSERT INTO audit (ts, file_sha256, filename, fmt, assay, n_samples, n_pass, "
+                  "n_fail, n_invalid, overall, delivery, plate_verdict) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
                   (datetime.datetime.now(datetime.timezone.utc).isoformat(), sha, filename, fmt, assay,
                    counts["PASS"] + counts["FAIL"] + counts["INVALID"],
-                   counts["PASS"], counts["FAIL"], counts["INVALID"], overall, delivery))
+                   counts["PASS"], counts["FAIL"], counts["INVALID"], overall, delivery, plate_verdict))
         c.commit(); c.close()
 
 def recent(limit: int = 50) -> list[dict]:
     cols = ["ts","file_sha256","filename","fmt","assay","n_samples",
-            "n_pass","n_fail","n_invalid","overall","delivery"]
+            "n_pass","n_fail","n_invalid","overall","delivery","plate_verdict"]
     with _lock:
         c = _conn()
-        rows = c.execute(f"SELECT * FROM audit ORDER BY ts DESC LIMIT {int(limit)}").fetchall()
+        rows = c.execute(f"SELECT {', '.join(cols)} FROM audit ORDER BY ts DESC LIMIT {int(limit)}").fetchall()
         c.close()
     return [dict(zip(cols, r)) for r in rows]
