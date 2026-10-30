@@ -1,6 +1,7 @@
 """Results Bridge — instrument output → validated → Benchling.
 
 POST /ingest   multipart: file + assay_id  → parse, validate, deliver, audit
+POST /gravimetric  balance file -> liquid-class %DEV / %CV table
 GET  /audit    recent ingestions (traceability)
 GET  /healthz  liveness
 """
@@ -60,6 +61,24 @@ async def ingest(file: UploadFile, assay_id: str = Form(...), plate_map: Optiona
     return {"assay": assay_id, "file_sha256": sha, "format": fmt,
             "overall": overall, "summary": counts, "results": results,
             "plate": plate, "delivery": delivery}
+
+
+@app.post("/gravimetric")
+async def gravimetric(file: UploadFile, temperature_C: Optional[float] = Form(None),
+                      liquid: Optional[str] = Form(None), target_uL: Optional[float] = Form(None),
+                      mode: str = Form("auto"), channel: str = Form("1")):
+    """Gravimetric liquid-class verification (template CSV or balance print stream)."""
+    import os, tempfile
+    from . import tools
+    raw = await file.read()
+    with tempfile.TemporaryDirectory() as d:
+        path = os.path.join(d, os.path.basename(file.filename or "balance.csv"))
+        with open(path, "wb") as fh:
+            fh.write(raw)
+        try:
+            return tools.check_gravimetric(path, temperature_C, liquid, target_uL, mode, channel)
+        except ValueError as e:
+            raise HTTPException(422, str(e))
 
 
 @app.get("/audit")

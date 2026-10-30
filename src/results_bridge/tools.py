@@ -105,3 +105,40 @@ def get_protocol(name: str) -> dict:
     if match is None:
         raise ValueError(f"no protocol named '{name}'; try search_protocols first")
     return match
+
+
+def check_gravimetric(file_path: str, temperature_C: float = None, liquid: str = None,
+                      target_uL: float = None, mode: str = "auto", channel: str = "1") -> dict:
+    """Gravimetric liquid-class verification (M9). Parse a balance file, convert
+    each dispense mass to volume (ISO 8655-6 style, temperature- and density-
+    corrected) and score %DEV / %CV per liquid x volume x channel against
+    gravimetric.json. Records an audit row; never writes to Benchling.
+
+    Template CSV files carry liquid and target in their columns. A raw balance
+    print stream (Mettler SICS / Sartorius) does not, so pass `liquid` and
+    `target_uL`, and optionally `mode` ("individual" tared readings or
+    "cumulative" running total; "auto" decides and reports)."""
+    from . import gravimetric as g
+    name = os.path.basename(file_path)
+    raw = open(file_path, "rb").read()
+    text = raw.decode("utf-8-sig")
+    cfg = g.load_config()
+    meta, fmt = {}, None
+    try:
+        meta, readings = g.parse_template_csv(text)
+        fmt = "gravimetric_template_csv"
+    except ValueError as template_err:
+        try:
+            values = g.parse_balance_stream(text)
+        except ValueError:
+            raise ValueError(f"{name}: not a gravimetric template ({template_err}) and no "
+                             f"balance readings recognised") from None
+        if liquid is None or target_uL is None:
+            raise ValueError(f"{name} is a raw balance stream: pass liquid and target_uL")
+        used, readings = g.stream_to_readings(values, liquid, target_uL, mode, channel)
+        fmt = f"balance_stream_{used}"
+    result = g.score_gravimetric(readings, cfg, meta, temperature_C)
+    audit.record(sha=audit.file_sha(raw), filename=name, fmt=fmt, assay="GRAVIMETRIC_liquid_class",
+                 counts=result["summary"], overall=result["overall"],
+                 delivery="mcp-check (not delivered)")
+    return {"file": name, "format": fmt, "metadata": meta, **result}

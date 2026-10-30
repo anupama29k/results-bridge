@@ -1,0 +1,27 @@
+{
+  "description": "Gravimetric liquid-class verification for automated liquid handlers. Limits are project defaults by target volume; set them per method.",
+  "limits_source": "project_defined -- vendor accuracy specs are a best case and ISO 8655-2 limits are written for hand pipettes; agree method limits with the client before verification",
+  "min_replicates": 10,
+  "air_density_g_per_mL": 0.0012,
+  "limits": [
+    {"max_volume_uL": 20,   "dev_pct": 5.0, "cv_pct": 5.0},
+    {"max_volume_uL": 100,  "dev_pct": 3.0, "cv_pct": 3.0},
+    {"max_volume_uL": 1000, "dev_pct": 2.0, "cv_pct": 2.0}
+  ],
+  "liquid_limits": {
+    "glycerol_50pct": [
+      {"max_volume_uL": 20,   "dev_pct": 8.0, "cv_pct": 6.0},
+      {"max_volume_uL": 1000, "dev_pct": 5.0, "cv_pct": 4.0}
+    ]
+  },
+  "densities_g_per_mL": {
+    "PBS": 1.005,
+    "PBST": 1.005,
+    "DMSO": 1.100,
+    "ethanol_80pct": 0.857,
+    "glycerol_50pct": 1.127,
+    "BCA_working_reagent": 1.03,
+    "blocking_buffer": 1.008
+  },
+  "densities_note": "Nominal values at ~20-25 C. Measure the client's actual reagent (weigh a known volume with a calibrated pipette) and override per file with a '# density_<liquid>: <g/mL>' header."
+}

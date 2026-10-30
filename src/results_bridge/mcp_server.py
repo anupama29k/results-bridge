@@ -62,6 +62,20 @@ def check_file(file_path: str, assay_id: str, plate_map_path: str = None) -> dic
 
 
 @mcp.tool()
+def check_gravimetric(file_path: str, temperature_C: float = None, liquid: str = None,
+                      target_uL: float = None, mode: str = "auto", channel: str = "1") -> dict:
+    """Gravimetric liquid-class verification for a liquid handler. Parse a
+    balance file at an absolute path -- the gravimetric template CSV (liquid,
+    target_uL, channel, replicate, mass) or a raw Mettler SICS / Sartorius
+    print stream -- convert each dispense mass to volume with temperature-
+    and density-corrected ISO 8655-6 conversion, and return %DEV and %CV per
+    liquid x target volume x channel with PASS / FAIL / INVALID against the
+    configured limits. For a raw stream, pass liquid and target_uL. Records an
+    audit row; never writes to Benchling."""
+    return tools.check_gravimetric(file_path, temperature_C, liquid, target_uL, mode, channel)
+
+
+@mcp.tool()
 def recent_audit(limit: int = 20) -> list:
     """Return the most recent audit-log entries (newest first): every file
     this service has checked or ingested, with verdict counts and delivery
