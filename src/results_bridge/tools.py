@@ -142,3 +142,12 @@ def check_gravimetric(file_path: str, temperature_C: float = None, liquid: str =
                  counts=result["summary"], overall=result["overall"],
                  delivery="mcp-check (not delivered)")
     return {"file": name, "format": fmt, "metadata": meta, **result}
+
+
+def build_validation_pack(manifest_path: str, out_html: str, out_pdf: str = None) -> dict:
+    """Assemble a validation pack from an engagement manifest (M10): re-score
+    every PQ run and gravimetric file, hash every input, compute the
+    acceptance status, and write HTML (and PDF if weasyprint is installed).
+    Returns the status, reasons and output paths."""
+    from .pack import build_pack
+    return build_pack(manifest_path, out_html, out_pdf)
